@@ -6,6 +6,7 @@ Welcome to the Three.js Code Journal! This repository serves as a daily log of c
 
 The folder structure is organized by year, month, and day. Each exercise or project is contained in its own folder.
 
+```
 threejs-code-journal/
 ├── README.md
 ├── index.html
@@ -18,6 +19,7 @@ threejs-code-journal/
 │   │   │   │   │   ├── index.html
 │   │   │   │   │   ├── script.js
 │   │   │   │   │   └── style.css
+```
 
 - `YYYY/MM/DD/exercise-N/`: Contains the code for each exercise or project.
 
