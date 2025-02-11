@@ -1,8 +1,8 @@
-Three.js Code Journal
+# Three.js Code Journal
 
 Welcome to the Three.js Code Journal! This repository serves as a daily log of code exercises focused on Three.js. Each exercise or project is organized by date, making it easy to track your progress and revisit previous work.
 
-Folder Structure
+## Folder Structure
 
 The folder structure is organized by year, month, and day. Each exercise or project is contained in its own folder.
 
@@ -21,7 +21,7 @@ threejs-code-journal/
 
 - `YYYY/MM/DD/exercise-N/`: Contains the code for each exercise or project.
 
-Getting Started
+## Getting Started
 
 Follow these steps to get started with your own journaling journey:
 
@@ -33,7 +33,7 @@ Follow these steps to get started with your own journaling journey:
 
 3. Open `index.html` in your browser to see the exercise in action.
 
-Adding Your Own Exercises
+## Adding Your Own Exercises
 
 Feel free to use this repository as a template for your own journaling journey. Here's how you can add your own exercises:
 
@@ -47,7 +47,7 @@ Feel free to use this repository as a template for your own journaling journey. 
     git commit -m "Add exercise N for YYYY-MM-DD"
     git push origin main
 
-Contributing
+## Contributing
 
 We welcome contributions from the community! If you have an exercise or project you'd like to share, please follow these steps:
 
@@ -56,7 +56,7 @@ We welcome contributions from the community! If you have an exercise or project 
 3. Add your exercise or project to the appropriate folder.
 4. Submit a pull request with a brief description of your contribution.
 
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
