@@ -1,0 +1,22 @@
+{
+  "name": "threejs-code-journal",
+  "version": "1.0.0",
+  "description": "Welcome to the Three.js Code Journal. This repository serves as a daily log of code exercises focused on Three.js. Each exercise or project is organized by date, making it easy to track your progress and revisit previous work.",
+  "main": "gallery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyxtom/threejs-code-journal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyxtom/threejs-code-journal/issues"
+  },
+  "homepage": "https://github.com/nyxtom/threejs-code-journal#readme",
+  "dependencies": {
+    "noisejs": "^2.1.0"
+  }
+}
