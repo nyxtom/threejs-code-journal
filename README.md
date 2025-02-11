@@ -1,6 +1,6 @@
 # Three.js Code Journal
 
-Welcome to the Three.js Code Journal! This repository serves as a daily log of code exercises focused on Three.js. Each exercise or project is organized by date, making it easy to track your progress and revisit previous work.
+Welcome to the Three.js Code Journal. This repository serves as a daily log of code exercises focused on Three.js. Each exercise or project is organized by date, making it easy to track your progress and revisit previous work.
 
 ## Folder Structure
 
@@ -51,7 +51,7 @@ Feel free to use this repository as a template for your own journaling journey. 
 
 ## Contributing
 
-We welcome contributions from the community! If you have an exercise or project you'd like to share, please follow these steps:
+We welcome contributions from the community. If you have an exercise or project you'd like to share, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your contribution.
@@ -62,4 +62,4 @@ We welcome contributions from the community! If you have an exercise or project 
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Happy coding and journaling!
+Happy coding and journaling.
