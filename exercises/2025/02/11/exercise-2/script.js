@@ -27,8 +27,22 @@ scene.add(curveObject);
 camera.position.z = 5;
 
 // Render loop
-function animate() {
-    requestAnimationFrame(animate);
+const sphereGeometry = new THREE.SphereGeometry(0.1, 16, 16);
+const sphereMaterial = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+const movingObject = new THREE.Mesh(sphereGeometry, sphereMaterial);
+scene.add(movingObject);
+
+let t = 0;
+function animateBezier() {
+    requestAnimationFrame(animateBezier);
+    
+    // Interpolate position along the curve
+    const position = curve.getPoint(t);
+    movingObject.position.copy(position);
+    
+    t += 0.01; // Increment time parameter
+    if (t > 1) t = 0; // Loop animation
+    
     renderer.render(scene, camera);
 }
-animate();
+animateBezier();
