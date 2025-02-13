@@ -3,9 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
     
     const exercises = [
         // List of exercises (this should be dynamically generated)
-        { date: '2025-02-11', name: 'exercise-1', path: 'exercises/2025/02/11/exercise-1/index.html' },
-        { date: '2025-02-11', name: 'exercise-2', path: 'exercises/2025/02/11/exercise-2/index.html' },
-        { date: '2025-02-11', name: 'exercise-3', path: 'exercises/2025/02/11/exercise-3/index.html' }
+        { date: '2025-02-11', name: 'Box', path: 'exercises/2025/02/11/exercise-1/index.html' },
+        { date: '2025-02-11', name: 'Bezier Curves', path: 'exercises/2025/02/11/exercise-2/index.html' },
+        { date: '2025-02-11', name: 'Terrain', path: 'exercises/2025/02/11/exercise-3/index.html' },
+        { date: '2025-02-13', name: 'Lidar', path: 'exercises/2025/02/13/exercise-1/index.html' }
     ];
 
     exercises.forEach(exercise => {
